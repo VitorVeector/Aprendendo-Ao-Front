@@ -14,10 +14,4 @@ console.log(escola.substring(2));
 console.log(escola.substring(2, 6));
 
 //Dividir elementos em string
-console.log('Marcio,José,PedrinhoPVP'.split(','));
-
-
-
-
-
-
+console.log('Marcio, José, PedrinhoPVP'.split(','));
