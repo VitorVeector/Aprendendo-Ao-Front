@@ -13,7 +13,7 @@ console.log()
 console.log('Expressão booleana:')
 function seForVddEuDigo(valor){
     if(valor){
-        console.log('Eh vdd')
+        console.log('Eh vdd' + valor)
     }
 }
 
@@ -23,3 +23,10 @@ seForVddEuDigo(null)
 seForVddEuDigo(undefined)
 seForVddEuDigo(NaN)
 seForVddEuDigo('')
+
+seForVddEuDigo(-1)
+seForVddEuDigo(' ')
+seForVddEuDigo(1)
+seForVddEuDigo(true)
+seForVddEuDigo([])
+seForVddEuDigo({})
