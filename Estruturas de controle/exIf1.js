@@ -17,3 +17,12 @@ function AnoNasc(anoN){
 
 AnoNasc(2004)
 
+const pass = function (senha){
+    if(senha === 1234){
+        console.log('Acesso Permitido')
+    }else{
+        console.log('Acesso Negado')
+    }
+}
+
+pass(1234)
