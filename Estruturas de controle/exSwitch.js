@@ -15,7 +15,21 @@ const acao = function (botao){
         default:
             console.log('Opcao invalida')
     }
-
-    acao('w')
-
 }
+acao('d')
+
+const opcao = function(press){
+    switch(press) {
+        case 1:
+            console.log('Voce escolheu a primeira opcao')
+            break;
+        case 2:
+            console.log('Voce escolheu a segunda opcao')
+            break;
+        default:
+            console.log('Opcao Invalida')
+            break;
+    }
+}
+
+opcao(4 )
