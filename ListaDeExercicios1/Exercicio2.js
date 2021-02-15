@@ -8,4 +8,4 @@ function tipoTriangulo(l1, l2, l3){
     }
 }
 
-tipoTriangulo(3, 3, 3)
+tipoTriangulo(3, 3, 4)
