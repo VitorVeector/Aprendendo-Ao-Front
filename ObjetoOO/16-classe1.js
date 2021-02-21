@@ -20,6 +20,14 @@ class CicloFinanceiro {
         this.lancamentos.forEach(l => {
             valorConsolidado += l.valor
         })
+        return valorConsolidado
     }
 }
+
+const salario = new Lancamento('Salario', 4500)
+const contaDeLuz = new Lancamento('Luz', -220)
+
+const contas = new CicloFinanceiro(1, 2021)
+contas.addLancamentos(salario, contaDeLuz)
+console.log(contas.sumario())
 
