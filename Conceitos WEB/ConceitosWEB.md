@@ -159,4 +159,21 @@ Certificado com os **protocolos** SSL/TLS -> correto
 
 > Usa certificados digitais
 
+# WEB SERVICE
 
+> (Soup)
+Simple Object Access Protocol
+
+> (Rest)
+Representational State Transfer
+
+SOUP | REST
+----|----
+WSDL|JSON
+XML|HTTP
+RPC|
+Burocrático|Simples
+
+### Convenção RESTful
+
+![Conveção RESTFul](./ConvencaoRESTful.png)
