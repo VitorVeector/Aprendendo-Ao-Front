@@ -1,0 +1,16 @@
+{
+    "clientes": {
+        "Maria": {
+            "idade": 30,
+            "email": "mariazinha@outlook.com",
+            "senha": "45567767PO",
+            "estado": "Mato Grosso"
+        },
+        "Jose": {
+            "idade": 40,
+            "email": "josesese90@gmail.com",
+            "senha": "jose988892332",
+            "estado": "São Paulo"
+        }
+    }
+}

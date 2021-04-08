@@ -1,1 +1,1 @@
-this.ola2 = 'Queeh dadinho? Aqui é Zé pequeno'
+this.tchau = 'Asta lá vista, BABY!'

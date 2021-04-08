@@ -1,0 +1,52 @@
+<h1>Projeto</h1>
+<style>
+    
+    
+    span{
+        cursor: pointer;
+    }
+    .active{
+        display: block;
+    }
+</style>
+
+<ul class="tree">
+    <li><span btn-toggle>Back-End</span></li>
+        <ul>
+            <li><span btn-toggle>app</span></li>
+                <ul>
+                    <li>produto.js</li>
+                    <li>usuario.js</li>
+                    <li>venda.js</li>
+                </ul>
+            <li><span btn-toggle>config</span></li>
+                <ul>
+                    <li>banco.js</li>
+                    <li>rotas.js</li>
+                    <li>servidor.js</li>
+                </ul>
+        </ul>
+    <li><span btn-toggle>Front-End</span></li>
+        <ul>
+            <li><span btn-toggle>Public</span></li>
+                <ul>
+                    <li>styles.css</li>
+                    <li>scripts.js</li>
+                    <li>index.html</li>
+                </ul>
+        </ul>
+</ul>
+
+<link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+<script>
+    document.querySelectorAll("[btn-toggle]").forEach(button => {
+        button.onclick = function(e){
+            const ul = button.nextElementSibling
+            const d = ul.style.display
+            ul.style.display = d === 'none' ? 'block' : 'none'
+        }
+    })
+    
+
+
+</script>
